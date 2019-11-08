@@ -1,6 +1,6 @@
 const program = require('commander');
 const path = require('path');
-const { version } = require('./constants');
+const { VERSION } = require('./variates');
 
 const mapActions = {
   create: {
@@ -24,6 +24,7 @@ const mapActions = {
     examples: [],
   },
 };
+
 Reflect.ownKeys(mapActions).forEach((action) => {
   program
     .command(action) // 配置命令的名字
@@ -50,4 +51,4 @@ program.on('--help', () => {
   });
 });
 
-program.version(version).parse(process.argv);
+program.version(VERSION).parse(process.argv);
