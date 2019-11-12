@@ -9,6 +9,10 @@
   "bin": {
     "koats": "./bin/www"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimpleCodeCX/koa-ts-cli.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
