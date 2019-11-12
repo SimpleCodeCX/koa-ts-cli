@@ -4,7 +4,7 @@ const { version: VERSION } = require('../package.json');
 const DOWNLOAD_DIRECTORY = `${process.env[process.platform === 'darwin' ? 'HOME' : 'USERPROFILE']}/.template`;
 
 // 项目模板列表
-const TEMPLATE_REPOLIST = ['koa-ts-demo'];
+const TEMPLATE_REPOLIST = ['koa-ts-base-template', 'koa-ts-full-template', 'koa-ts-full-stack-template'];
 
 // git 用户名
 const GIT_USER_NAME = 'SimpleCodeCX';
