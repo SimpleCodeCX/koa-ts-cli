@@ -1,6 +1,6 @@
 {
   "name": "koa-ts-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/SimpleCodeCX/koa-ts-cli.git"
   },
-  "keywords": [],
+  "keywords": [
+    "koa-ts",
+    "koa",
+    "ts",
+    "koats"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
