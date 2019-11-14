@@ -2,15 +2,19 @@
 A simple CLI for create koa + ts project: `koats create myProject`.
 
 ## Templates
-Koats provide three templates that are all based on ts.
+koats provide three templates that are all based on ts.
 
 - [koa-ts-base-template](https://github.com/SimpleCodeCX/koa-ts-base-template)
 
-  This is a basic of koa project structure, integrated with ts. If you want to custom the structure of the project, this template is for you
+  This is a basic of koa project structure, integrated with ts. If you want to custom the structure of the project, this template is for you.
+
+  For more details, please see [https://github.com/SimpleCodeCX/koa-ts-base-template](https://github.com/SimpleCodeCX/koa-ts-base-template)
 
 - [koa-ts-full-template](https://github.com/SimpleCodeCX/koa-ts-full-template)
 
-  This is a full project structure, integrated with ts.This project has been configured with a mysql database, support different environment(local,dev,prod) configuration, some custom koa middleware have configured, and it has been the definition of a unified api response format.
+  This is a full project structure, integrated with ts.This project has been configured with a mysql database, support different environment(dev,prod,testing) configuration, some custom koa middleware have configured, and it has been the definition of a unified api response format.
+
+   For more details, please see [https://github.com/SimpleCodeCX/koa-ts-full-template](https://github.com/SimpleCodeCX/koa-ts-full-template)
   
 - [koa-ts-full-stack-template](https://github.com/SimpleCodeCX/koa-ts-full-stack-server)
 
@@ -21,6 +25,8 @@ Koats provide three templates that are all based on ts.
     - client: This directory is the front-end code.
     - server: This directory is the back-end code.
     - common: This directory is the common code for front-end and back-end.
+
+    For more details, please see [https://github.com/SimpleCodeCX/koa-ts-full-stack-server](https://github.com/SimpleCodeCX/koa-ts-full-stack-server)
 
 This three template has the following three common features.
 
@@ -54,7 +60,7 @@ This three template has the following three common features.
  npm install
 ```
 
-## In development mode
+## In Development Mode
 
 ```javascript
  cd myProject
@@ -63,7 +69,7 @@ This three template has the following three common features.
 
 > NOTE: If you choose koa-ts-full-template or koa-ts-full-stack-template, you need to do some configuration.
 
-## In porduction mode
+## In Porduction Mode
 
 ```javascript
  npm run build
@@ -74,7 +80,7 @@ This three template has the following three common features.
 > NOTE: If you choose koa-ts-full-template or koa-ts-full-stack-template, you need to do some configuration.
 
 
-## Run in docker
+## Run In Docker
 
 ```javascript
  cd myProject
