@@ -1,6 +1,6 @@
 {
   "name": "koa-ts-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -37,6 +37,7 @@
     "inquirer": "^7.0.0",
     "metalsmith": "^2.3.0",
     "ncp": "^2.0.0",
-    "ora": "^3.4.0"
+    "ora": "^3.4.0",
+    "shelljs": "^0.8.3"
   }
 }

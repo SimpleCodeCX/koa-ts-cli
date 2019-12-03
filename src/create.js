@@ -5,6 +5,7 @@ const ora = require('ora');
 const Inquirer = require('inquirer');
 let downloadGitReop = require('download-git-repo');
 let ncp = require('ncp');
+const shell = require('shelljs');
 const MetalSmith = require('metalsmith');
 let { render } = require('consolidate').ejs;
 const { promisify } = require('util');
@@ -109,4 +110,5 @@ module.exports = async (projectName) => {
         });
     });
   }
+  shell.rm('-R', DOWNLOAD_DIRECTORY);
 };
