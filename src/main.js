@@ -7,15 +7,15 @@ const mapActions = {
     alias: 'c',
     description: 'create a project',
     examples: [
-      'koa-ts-cli create <project-name>',
+      'koats create <project-name>',
     ],
   },
   config: {
     alias: 'conf',
     description: 'config project variable',
     examples: [
-      'koa-ts-cli config set <k> <v>',
-      'koa-ts-cli config get <k>',
+      'koats config set <k> <v>',
+      'koats config get <k>',
     ],
   },
   '*': {
